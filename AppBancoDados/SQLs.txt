@@ -1,0 +1,9 @@
+SQLS para criar banco de dados:
+
+create database appbancodados;
+
+create table contato (
+	codigo int primary key auto_increment,
+    nome varchar(80),
+    telefone varchar(15)
+);
